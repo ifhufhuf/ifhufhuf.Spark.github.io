@@ -1,0 +1,36 @@
+/* styles.css */  
+  
+/* 为超链接添加基本样式 */  
+a {  
+    display: inline-block;  
+    padding: 10px 20px;  
+    color: white;  
+    background-color: #007bff;  
+    border-radius: 5px;  
+    text-decoration: none;  
+    transition: background-color 0.3s ease;  
+}  
+  
+/* 鼠标悬停时的样式 */  
+a:hover {  
+    background-color: #0056b3;  
+}  
+  
+/* 在新标签页中打开的链接样式 */  
+a[target="_blank"] {  
+    background-color: #0069d9;  
+}  
+  
+/* 鼠标悬停在新标签页链接上的样式 */  
+a[target="_blank"]:hover {  
+    background-color: #004085;  
+}  
+  
+/* 为特定链接添加特殊样式 */  
+a.beta-download {  
+    background-color: #ff4d4d; /* 红色背景 */  
+}  
+  
+a.beta-download:hover {  
+    background-color: #d93636; /* 鼠标悬停时的深红色背景 */  
+}
